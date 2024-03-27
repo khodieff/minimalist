@@ -1,0 +1,747 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/public-sans');
+@import url('https://fonts.cdnfonts.com/css/ibarra-real-nova-2');
+
+:root {
+    --PublicSans: 'Public Sans', sans-serif;
+    --ibarra: 'Ibarra Real Nova', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+/*----------------started styles of navigation section----------------*/
+nav {
+    width: 100%;
+}
+
+nav .navbar {
+    width: 100%;
+    height: 32px;
+    margin: 64px 0 43px;
+}
+
+.navbar .checked {
+    float: right;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+.navbar .logo img {
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+.navbar .checked div {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin: 2px;
+}
+
+nav .navbar ul {
+    float: right;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: #33323d;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--PublicSans);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.navbar ul li .activ3 {
+    color: #5fb4a2;
+}
+
+/*----------------/ended styles of navigation section----------------*/
+
+
+
+/*----------------started styles of main section----------------*/
+main {
+    width: 100%;
+    min-height: 400px;
+}
+
+.contact-items {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dcdcde;
+    border-bottom: 1px solid #dcdcde;
+}
+
+.contact-item1 {
+    width: auto;
+    height: 250px;
+}
+
+.contact-item1 h2 {
+    font-family: var(--ibarra);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+    color: #33323d;
+}
+
+.contact-item2 {
+    width: 57.3%;
+    min-height: 250px;
+    position: relative;
+}
+
+.contact-item2 p {
+    font-family: var(--PublicSans);
+    font-size: 16.8px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #33323d;
+    padding-bottom: 32px;
+}
+
+.networks {
+    width: 104px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.networks a {
+    text-decoration: none;
+}
+
+/*----------------/ended styles of main section----------------*/
+
+
+
+/*----------------STARTed styles of CONTACT section----------------*/
+.contactMe {
+    width: 100%;
+    height: auto;
+    margin-top: 38px;
+}
+
+.contactMe-items {
+    width: 100%;
+    height: 426px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactMe-item1 {
+    width: auto;
+    height: auto;
+}
+
+.contactMe-item1 h2 {
+    font-family: var(--ibarra);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;
+}
+
+.contactMe-item2 {
+    width: 57%;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    width: 100%;
+    height: 86px;
+    font-display: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.name label {
+    position: absolute;
+    top: 4px;
+}
+
+.name input {
+    width: 100%;
+    height: 48px;
+    background-color: #e6e6e7;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 0;
+    padding: 18px;
+    color: #9e9ea2;
+}
+
+.gmail {
+    width: 100%;
+    height: 86px;
+    font-display: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 4px;
+}
+
+.gmail label {
+    position: absolute;
+    top: 4px;
+}
+
+.gmail input {
+    width: 100%;
+    height: 48px;
+    background-color: #e6e6e7;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 0;
+    padding: 18px;
+    color: #9e9ea2;
+}
+
+.message {
+    width: 100%;
+    height: 135px;
+    font-display: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 4px;
+}
+
+.message label {
+    position: absolute;
+    top: 4px;
+}
+
+.message textarea {
+    width: 100%;
+    height: 96px;
+    background-color: #e6e6e7;
+    border: none;
+    outline: none;
+    position: absolute;
+    bottom: 0;
+    padding: 18px;
+    color: #9e9ea2;
+}
+
+.contactMe-item2 button {
+    width: 200px;
+    height: 48px;
+    background-color: #203A4C;
+    border: none;
+}
+
+.contactMe-item2 button p {
+    font-family: var(--PublicSans);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.1px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+/*----------------/ended styles of CONTACT section----------------*/
+
+
+
+/*----------------started styles of footer section----------------*/
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #33323d;
+    margin-top: 120px;
+}
+
+.footer-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-items .card1 {
+    width: 410px;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-items .card1 a {
+    font-family: var(--PublicSans);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.1px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+.card2 {
+    width: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*----------------/ended styles of footer section----------------*/
+
+
+
+
+
+
+
+/*==============================--STARTED RESPONSIWE FLEXIBLE STYLES--==============================*/
+@media only screen and (max-width:1111px) {
+    .container {
+        padding: 0 12px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px AND ...) */
+@media only screen and (max-width:768px) {
+
+
+    /*---started styles of navigation section---*/
+    nav {
+        width: 100%;
+    }
+
+    nav .navbar {
+        width: 100%;
+        height: 32px;
+    }
+
+    /*---/ended styles of navigation section---*/
+
+
+
+    /*---started styles of main section---*/
+    main {
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .contact-items {
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-top: 1px solid #dcdcde;
+        border-bottom: 1px solid #dcdcde;
+    }
+
+    .contact-item1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-item1 h2 {
+        font-family: var(--ibarra);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.3571428656578064px;
+        text-align: left;
+        color: #33323d;
+    }
+
+    .contact-item2 {
+        width: 100%;
+        min-height: 250px;
+        position: relative;
+    }
+
+    .contact-item2 p {
+        font-family: var(--PublicSans);
+        font-size: 16.8px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #33323d;
+    }
+
+    .networks a {
+        text-decoration: none;
+    }
+
+    /*---/ended styles of main section---*/
+
+
+
+    /*---STARTed styles of CONTACT section---*/
+    .contactMe {
+        width: 100%;
+        height: auto;
+        margin-top: 38px;
+    }
+
+    .contactMe-items {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .contactMe-item1 {
+        width: auto;
+        height: auto;
+    }
+
+    .contactMe-item1 h2 {
+        font-family: var(--ibarra);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.3571428656578064px;
+        text-align: left;
+        padding: 32px 0;
+    }
+
+    .contactMe-item2 {
+        width: 100%;
+        height: 426px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .name {
+        width: 100%;
+        height: 86px;
+        font-display: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .name label {
+        position: absolute;
+        top: 4px;
+    }
+
+    .name input {
+        width: 100%;
+        height: 48px;
+        background-color: #e6e6e7;
+        border: none;
+        outline: none;
+        position: absolute;
+        bottom: 0;
+        padding: 18px;
+        color: #9e9ea2;
+    }
+
+    .gmail {
+        width: 100%;
+        height: 86px;
+        font-display: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 4px;
+        margin-top: 22px;
+    }
+
+    .gmail label {
+        position: absolute;
+        top: 4px;
+    }
+
+    .gmail input {
+        width: 100%;
+        height: 48px;
+        background-color: #e6e6e7;
+        border: none;
+        outline: none;
+        position: absolute;
+        bottom: 0;
+        padding: 18px;
+        color: #9e9ea2;
+    }
+
+    .message {
+        width: 100%;
+        height: 135px;
+        font-display: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 22px;
+    }
+
+    .message label {
+        position: absolute;
+        top: 4px;
+    }
+
+    .message textarea {
+        width: 100%;
+        height: 96px;
+        background-color: #e6e6e7;
+        border: none;
+        outline: none;
+        position: absolute;
+        bottom: 0;
+        padding: 18px;
+        color: #9e9ea2;
+    }
+
+
+
+
+    .contactMe-item2 button {
+        width: 200px;
+        height: 48px;
+        background-color: #203A4C;
+        border: none;
+        margin-top: 22px;
+    }
+    
+    .contactMe-item2 button p {
+        font-family: var(--PublicSans);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.1px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: white;
+    }
+    /*---/ended styles of CONTACT section---*/
+}
+
+
+
+
+
+
+
+
+/*-----------------======Extra small devices (phones, 575px and ...)======-----------------*/
+@media only screen and (max-width:575px) {
+
+    .container {
+        padding: 0 16px;
+    }
+
+    /*--- started styles of navigation sectiom ---*/
+    nav {
+        width: 100%;
+    }
+
+    nav .navbar {
+        width: 100%;
+        height: 32px;
+        margin: 32px auto;
+        padding: 0;
+    }
+
+    .navbar .checked {
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar .checked div {
+        width: 24px;
+        height: 2px;
+        background-color: #33323d;
+        margin: 2px;
+    }
+
+    nav .navbar ul {
+        background-color: #33323d;
+        width: 200px;
+        height: 186px;
+        margin-top: 32px;
+        padding: 12px 0;
+        display: none;
+        z-index: 1;
+        position: absolute;
+        right: 46px;
+        top: 32px;
+    }
+
+    .navbar ul li {
+        display: block;
+        line-height: 32px;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .navbar ul li a {
+        color: #ffffff;
+        font-size: 17px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .navbar ul li .activ1 {
+        color: #ffffff;
+    }
+
+    #check:checked~ul {
+        display: block;
+        margin-right: -26px;
+    }
+
+    .navbar ul li .activ3 {
+        color: #ffffff;
+    }
+    /*---/ended styles of navigation sectiom---*/
+
+
+
+    /*---started styles of main section---*/
+    main {
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .contact-items {
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-top: 1px solid #dcdcde;
+        border-bottom: 1px solid #dcdcde;
+    }
+
+    .contact-item1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-item1 h2 {
+        font-family: var(--ibarra);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.3571428656578064px;
+        text-align: left;
+        color: #33323d;
+        padding: 32px 0;
+    }
+
+    .contact-item2 {
+        width: 100%;
+        min-height: 250px;
+        position: relative;
+        padding-bottom: 46px;
+    }
+
+    .contact-item2 p {
+        font-family: var(--PublicSans);
+        font-size: 16.8px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #33323d;
+        padding-bottom: 38px;
+    }
+
+    .networks {
+        width: 104px;
+        height: 24px;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 32px;
+    }
+
+    .networks a {
+        text-decoration: none;
+    }
+    /*---/ended styles of main section---*/
+
+
+
+    /*---started styles of footer section----*/
+    footer {
+        width: 100%;
+        height: 354px;
+        background-color: #33323d;
+        margin-top: 84px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer .footer-items {
+        width: 120px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-items .card1 {
+        width: 120px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer-items .card2 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        margin-top: 12px;
+    }
+    /*---/ended styles of footer section---*/
+}
