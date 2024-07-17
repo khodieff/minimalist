@@ -65,6 +65,10 @@ nav ul {
     z-index: 1;
 }
 
+nav ul li:nth-child(1) a{
+    color:#60b4a2;
+}
+
 nav ul li {
     display: inline-block;
     line-height: 40px;
@@ -145,7 +149,7 @@ nav #check {
     left: 0;
 }
 
-.intro .intro-box_item button {
+.intro .intro-box_item a {
     width: 200px;
     height: 48px;
     display: flex;
@@ -158,14 +162,15 @@ nav #check {
     position: absolute;
     left: 0;
     bottom: 0;
+    text-decoration: none;
 }
 
-.intro .intro-box_item button img {
+.intro .intro-box_item a img {
     width: 48px;
     height: 48px;
 }
 
-.intro .intro-box_item button p {
+.intro .intro-box_item a p {
     font-family: var(--public-sans);
     font-size: 12px;
     font-weight: 400;
